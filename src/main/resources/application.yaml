@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://github.com/FrancoRaspo/ecommerce-config-server-properties
+          clone-on-start: true
+          default-label: main
+          username: francoraspo@gmail.com
+          password: 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
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 8888
+
+
