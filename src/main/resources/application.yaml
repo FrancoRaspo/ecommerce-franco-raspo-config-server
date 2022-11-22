@@ -10,7 +10,7 @@ spring:
           clone-on-start: true
           default-label: main
           username: francoraspo@gmail.com
-          password: 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
+          password: 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
 management:
   endpoints:
     web:
